@@ -218,6 +218,35 @@
       margin-bottom: 0.5rem;
     }
 
+    .contact-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1.25rem;
+    }
+
+    .contact-actions a {
+      display: inline-block;
+      background: linear-gradient(135deg, #2c5aa0 0%, #1e3a5f 100%);
+      color: #ffffff !important;
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 0.65rem 1.25rem;
+      border-radius: 8px;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      box-shadow: 0 4px 16px rgba(44, 90, 160, 0.25);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .contact-actions a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(44, 90, 160, 0.35);
+    }
+
     @media (max-width: 768px) {
       .main-content {
         padding: 2rem 1rem;
@@ -245,20 +274,20 @@
       
       <div class="impact-section">
         <div class="impact-card">
-          <h3>CHAMPION LEVEL</h3>
+          <h3>COMMUNITY LEVEL</h3>
           <p><strong>Survivor Support (food and care) for the month</strong></p>
           <div class="price">U$ 50 per month</div>
         </div>
         
         <div class="impact-card">
-          <h3>CHANGE LEVEL</h3>
-          <p><strong>Champion Level + Group/ Activities: tutors, transportation to survivor's support sessions/ monthly</strong></p>
+          <h3>CHAMPION LEVEL</h3>
+          <p><strong>Community level + Group/ Activities: tutors, transportation to survivor's support sessions/ monthly</strong></p>
           <div class="price">U$ 100 per month</div>
         </div>
         
         <div class="impact-card">
-          <h3>COMMUNITY LEVEL</h3>
-          <p><strong>Community Level + Pays operational costs and the needs for 2 safe houses for the month.</strong></p>
+          <h3>CHANGE LEVEL</h3>
+          <p><strong>Champion level + Pays operational costs and the needs for 2 safe houses for the month.</strong></p>
           <div class="price">U$ 200 per month</div>
         </div>
       </div>
@@ -283,9 +312,12 @@
       <div class="contact-info">
         <h3>Tax-Deductible Donations for USA Donors</h3>
         <p>Samaritana West Africa Youth Ministry is a nonprofit 501(c)(3) charitable organization recognized by the IRS. Donations made by U.S. donors may be eligible for tax deductions under IRS guidelines.</p>
-        <p style="margin-top: 1.5rem;"><strong>For assistance or questions, please contact:</strong></p>
-        <p><strong>Contact Person:</strong> Trusella Dingle</p>
-        <p><strong>Email:</strong> <a href="mailto:info@SamaritanaWestAfrica.com" style="color: #2c5aa0; text-decoration: none;">info@SamaritanaWestAfrica.com</a></p>
+        <p style="margin-top: 1.5rem;"><strong>For assistance or questions:</strong></p>
+        <p><strong>Email:</strong> <a href="mailto:info@samaritana.com" style="color: #2c5aa0; text-decoration: none;">info@samaritana.com</a></p>
+        <div class="contact-actions">
+          <a href="mailto:info@samaritana.com">Contact Us</a>
+          <a href="https://samaritanawestafrica.aweb.page/join-sway-email-list" target="_blank" rel="noopener noreferrer">JOIN OUR EMAIL LIST</a>
+        </div>
       </div>
     </div>
   </div>
